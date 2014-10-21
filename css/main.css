@@ -45,3 +45,15 @@
   float: right;
   z-index: -1;
 }
+
+.home-promo-content {
+  background-color: #999;
+  height: 222px;
+  position: relative;
+  text-align: center;
+  clear: both
+}
+
+.home-grid-content {
+  min-height: 528px;
+}
