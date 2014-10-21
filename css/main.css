@@ -1,6 +1,74 @@
 ﻿@charset "UTF-8";
 /* CSS Document */
 
+/* TYPOGRAPHY */
+h1 {
+  font-family: Helvetica-Bold;
+  font-size: 41px;
+  color: #9c0c22;
+  font-style: normal;
+  line-height: 44.74pt;
+  letter-spacing: 0em;
+}
+
+h2 {
+  font-family: Helvetica-Bold;
+  font-size: 27px;
+  color: #9c0c22;
+  font-style: normal;
+  line-height: 45pt;
+  letter-spacing: 0em;
+}
+
+h3 {
+  font-family: Helvetica-Bold;
+  font-size: 20px;
+  color: #9c0c22;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+h4 {
+  font-family: Helvetica-Bold;
+  font-size: 22px;
+  color: #9c0c22;
+  font-style: normal;
+  line-height: 35pt;
+  letter-spacing: 0em;
+}
+
+h5 {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: #000000;
+  font-style: normal;
+  line-height: 25pt;
+  letter-spacing: 0em;
+}
+
+p {
+  font-family: ArialMT;
+  font-size: 15px;
+  color: #222222;
+  line-height: 18pt;
+  letter-spacing: 0em;
+}
+
+/* GRADIENTS */
+
+.light-grey-gradient {
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffffff 0%, #dddddd 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #ffffff 0%,#dddddd 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #ffffff 0%,#dddddd 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #ffffff 0%,#dddddd 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+}
+
+
 #header {
   background-color: #999;
   width: 100%;
@@ -25,7 +93,7 @@
 
 .home-header-content {
   max-width: 100%;
-  background-color: lightblue;
+  background-color: white;
   position: absolute;
   top: -50px;
   width: 590px;
@@ -47,11 +115,19 @@
 }
 
 .home-promo-content {
-  background-color: #999;
   height: 222px;
-  position: relative;
   text-align: center;
+  position: relative;
   clear: both
+}
+
+.apply-now-button {
+  background-color: #666;
+  width: 245px;
+  height: 45px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
 }
 
 .home-grid-content {
