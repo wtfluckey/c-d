@@ -75,6 +75,7 @@ p {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
 }
 
+/* SHARED */
 
 #header {
   background-color: #999;
@@ -91,9 +92,12 @@ p {
 }
 
 .content {
+  min-height: 1000px;
   max-width: 930px;
   margin: auto;
 }
+
+/* HOME PAGE */
 
 .home-header-content {
   max-width: 100%;
@@ -170,4 +174,12 @@ p {
 
 .p-bold {
   font-weight: bold;
+}
+
+/* REGULAR PAGE */
+
+.redline {
+  border-bottom: 5px solid #cf102d;
+  position: relative;
+  top: -10px;
 }
