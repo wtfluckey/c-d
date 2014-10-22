@@ -169,6 +169,10 @@ body, p {
   float: left;
 }
 
+.grid-copy h3 {
+  margin-top: 0;
+}
+
 .home-social-content {
   text-align: center;
 }
