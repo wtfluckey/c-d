@@ -78,11 +78,19 @@ p {
 /* SHARED */
 
 #header {
+  text-align: center;
   background-color: #999;
   width: 100%;
   height: 100px;
   position: relative;
   z-index: 9999;
+  padding-top: 30px;
+}
+
+#header > a {
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
 }
 
 #footer {
