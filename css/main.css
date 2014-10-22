@@ -1,6 +1,13 @@
 ﻿@charset "UTF-8";
 /* CSS Document */
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /* TYPOGRAPHY */
 h1 {
   font-family: Helvetica-Bold;
@@ -107,20 +114,11 @@ p {
 }
 
 .browse-button {
-  width: 240px;
+  width: 520px;
   height: 100px;
   background-color: #999;
   position: absolute;
   top: 350px;
-}
-
-.big-apply-button {
-  width: 240px;
-  height: 100px;
-  background-color: #999;
-  position: absolute;
-  top: 350px;
-  left: 610px;
 }
 
 .home-header-image {
@@ -164,4 +162,12 @@ p {
 
 .home-sister-brand {
   width: 320px;
+  margin-left: 15px;
+  margin-right: 30px;
+  margin-bottom: 75px;
+  margin-top: 40px;
+}
+
+.p-bold {
+  font-weight: bold;
 }
