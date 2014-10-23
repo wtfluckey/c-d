@@ -10,56 +10,62 @@ html {
 
 /* TYPOGRAPHY */
 h1 {
-  font-family: Helvetica-Bold;
-  font-size: 41px;
+  font-family: Arial;
+  font-size: 42px;
   color: #9c0c22;
-  font-weight: normal;
-  line-height: 44.74pt;
+  font-weight: bold;
+  line-height: 44.74px;
   letter-spacing: 0em;
+  opacity: 1;
 }
 
 h2 {
-  font-family: Helvetica-Bold;
+  font-family: Arial;
   font-size: 27px;
   color: #9c0c22;
-  font-weight: normal;
-  line-height: 45pt;
+  font-weight: bold;
+  line-height: 45px;
   letter-spacing: 0em;
+  opacity: 1;
 }
 
 h3 {
-  font-family: Helvetica-Bold;
+  font-family: Arial;
   font-size: 20px;
   color: #9c0c22;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 18px;
   letter-spacing: 0em;
+  opacity: 1;
 }
 
 h4 {
-  font-family: Helvetica-Bold;
+  font-family: Arial;
   font-size: 22px;
   color: #9c0c22;
-  font-weight: normal;
-  line-height: 35pt;
+  font-weight: bold;
+  line-height: 35px;
   letter-spacing: 0em;
+  opacity: 1;
 }
 
 h5 {
-  font-family: Helvetica;
+  font-family: Arial;
   font-size: 20px;
   color: #000000;
   font-weight: normal;
-  line-height: 25pt;
+  line-height: 25px;
   letter-spacing: 0em;
+  opacity: 1;
 }
 
 body, p {
-  font-family: ArialMT;
+  font-family: Arial;
   font-size: 15px;
   color: #222222;
-  line-height: 18pt;
+  line-height: 18px;
   letter-spacing: 0em;
+  opacity: 1;
 }
 
 /* GRADIENTS */
