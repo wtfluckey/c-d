@@ -231,4 +231,8 @@ body, p {
 
 .italic {
   font-style: italic;
+}
 
+.job-posting .apply-now-button {
+  float: right;
+}
