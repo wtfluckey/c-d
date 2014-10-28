@@ -18,6 +18,7 @@ h1 {
   letter-spacing: 0em;
   opacity: 1;
   margin-top: 0;
+  margin-bottom: 5px;
 }
 
 h2 {
@@ -256,12 +257,22 @@ hr {
   font-weight: bold;
 }
 
+/* DRIVER CENTER PAGE */
+
+.driver-center-header {
+  margin-top: 33px;
+}
+
+.driver-center-content {
+  padding-left: 15px;
+}
+
+
 /* REGULAR PAGE */
 
 .redline {
   border-bottom: 5px solid #cf102d;
-  position: relative;
-  top: -10px;
+  margin-bottom: 36px;
 }
 
 /* JOB DETAIL PAGE */
