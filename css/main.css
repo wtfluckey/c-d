@@ -17,6 +17,7 @@ h1 {
   line-height: 44.74px;
   letter-spacing: 0em;
   opacity: 1;
+  margin-top: 0;
 }
 
 h2 {
@@ -27,6 +28,8 @@ h2 {
   line-height: 45px;
   letter-spacing: 0em;
   opacity: 1;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h3 {
@@ -37,6 +40,8 @@ h3 {
   line-height: 18px;
   letter-spacing: 0em;
   opacity: 1;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
 h4 {
@@ -47,6 +52,8 @@ h4 {
   line-height: 35px;
   letter-spacing: 0em;
   opacity: 1;
+  margin-top: 5px;
+  margin-bottom: 0;
 }
 
 h5 {
@@ -57,6 +64,8 @@ h5 {
   line-height: 25px;
   letter-spacing: 0em;
   opacity: 1;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 body, p {
@@ -112,15 +121,20 @@ body, p {
   margin: auto;
 }
 
+hr {
+  margin: 0 0 0 0;
+  border-top: 1px solid #c4c4c4;
+}
+
 /* HOME PAGE */
 
 .home-header-content {
   max-width: 100%;
   background-color: white;
   position: absolute;
-  top: -50px;
-  width: 590px;
-  height: 630px;
+  top: -54px;
+  width: 610px;
+  height: 655px;
   border-bottom-right-radius: 50%;
   border-top-right-radius: 50%;
   z-index: 0;
@@ -128,16 +142,17 @@ body, p {
 
 .home-header-content-copy {
   width: 479px;
+  margin-top: 38px;
   position: absolute;
   z-index: 999;
 }
 
 .browse-button {
   width: 520px;
-  height: 100px;
+  height: 116px;
   background-color: #999;
   position: absolute;
-  top: 350px;
+  top: 331px;
 }
 
 .home-header-image {
@@ -150,28 +165,38 @@ body, p {
   text-align: center;
   position: relative;
   clear: both;
+  padding-top: 25px;
+  margin-bottom: 36px;
 }
 
 .apply-today {
   background-color: #666;
-  width: 245px;
+  width: 204px;
   height: 45px;
-  margin: auto;
+  margin: 15px auto;
   color: #fff;
   text-align: center;
 }
 
-.home-grid-content {
-  margin-top: 50px;
-  min-height: 528px;
+.temporary-drivers, .drive-video{
+  padding-left: 15px;
 }
 
-.row-fluid {
-  margin-bottom: 10px;
+.temporary-drivers img {
+  border-right: 1px solid #c4c4c4;
+  padding: 0 15px 0 0;
+}
+
+.driver-management-service {
+  margin-left: 10px !important;
+}
+
+.centerline-blog {
+  padding-right: 15px;
 }
 
 .grid-copy {
-  width: 195px;
+  width: 41%;
   margin-right: 30px;
   float: left;
 }
@@ -180,8 +205,26 @@ body, p {
   margin-top: 0;
 }
 
+.span4 {
+  border-right: 1px solid #c4c4c4;
+  height: 210px;
+}
+
+.centerline-blog {
+  border: none;
+}
 .home-social-content {
   text-align: center;
+}
+
+.home-social-icons {
+  margin-bottom: 15px;
+}
+
+.fa {
+  font-size: 40px;
+  margin-right: 10px;
+  color: #666;
 }
 
 .home-sister-brand {
