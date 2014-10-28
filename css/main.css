@@ -175,8 +175,13 @@ hr {
   width: 204px;
   height: 45px;
   margin: 15px auto;
+  padding: 13px;
   color: #fff;
   text-align: center;
+}
+
+.apply-today h3 {
+  color: #fff;
 }
 
 .vertical-divider {
@@ -244,8 +249,7 @@ hr {
 .home-sister-brand {
   width: 320px;
   margin-left: 15px;
-  margin-right: 30px;
-  margin-top: 40px;
+  margin-top: 36px;
 }
 
 .p-bold {
