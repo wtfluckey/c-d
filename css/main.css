@@ -38,7 +38,7 @@ h3 {
   font-size: 20px;
   color: #9c0c22;
   font-weight: bold;
-  line-height: 18px;
+  line-height: 0.9;
   letter-spacing: 0em;
   opacity: 1;
   margin-top: 0;
@@ -259,12 +259,23 @@ hr {
 
 /* DRIVER CENTER PAGE */
 
-.driver-center-header {
+.dc-header {
   margin-top: 33px;
 }
 
-.driver-center-content {
+.dc-content {
   padding-left: 15px;
+}
+
+.dc-drive-video, .dc-grid-item3 {
+  width: 290px;
+  padding-left: 15px;
+  float: left;
+}
+
+.dc-grid-item2, .dc-grid-item4 {
+  width: 290px;
+  float: right;
 }
 
 
