@@ -257,6 +257,18 @@ hr {
   font-weight: bold;
 }
 
+/* DRIVER CENTER AND REGULAR PAGE MAIN GRIDS */
+
+.grid-left610 {
+  width: 610px;
+  float: left;
+  margin-right: 30px;
+}
+
+.grid-right290 {
+  width: 290px;
+  float: right;
+}
 /* DRIVER CENTER PAGE */
 
 .dc-header {
@@ -277,6 +289,7 @@ hr {
   width: 290px;
   float: right;
 }
+
 
 
 /* REGULAR PAGE */
