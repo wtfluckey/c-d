@@ -271,6 +271,17 @@ hr {
   float: right;
 }
 
+.grid-left640 {
+  width: 640px;
+  float: left;
+  margin-right: 50px;
+}
+
+.grid-right240 {
+  width: 240px;
+  float: right;
+}
+
 .item-right > p {
   padding-right: 15px;
 }
