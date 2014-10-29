@@ -257,7 +257,8 @@ hr {
   font-weight: bold;
 }
 
-/* DRIVER CENTER AND REGULAR PAGE MAIN GRIDS */
+/* DRIVER CENTER AND REGULAR PAGE MAIN GRIDS
+ * AND SHARED STYLES */
 
 .grid-left610 {
   width: 610px;
@@ -269,13 +270,19 @@ hr {
   width: 290px;
   float: right;
 }
+
+.item-right > p {
+  padding-right: 15px;
+}
+
+
 /* DRIVER CENTER PAGE */
 
-.dc-header {
+.dc-header, .reg-header {
   margin-top: 33px;
 }
 
-.dc-content {
+.dc-content, .reg-content{
   padding-left: 15px;
 }
 
