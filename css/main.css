@@ -357,13 +357,13 @@ hr {
 }
 
 .apply-now-button {
-  width: 140px;
+  width: 156px;
   height: 20px;
   color: white;
   background-color: #428bca;
   text-align: center;
   border-radius: 2px;
-  padding: 5px;
+  padding: 3px;
   margin-top: 25px;
   margin-bottom: 15px;
   margin-right: 20px;
@@ -372,7 +372,7 @@ hr {
 
 .apply-steps-box {
   background-color: #e6e6e6;
-  padding: 30px 30px 30px 15px;
+  padding: 30px 15px;
   margin-top: 30px;
   color: #636363;
   font-size: 14px;
@@ -393,6 +393,50 @@ hr {
   font-style: italic;
 }
 
-.job-posting .apply-now-button {
+/* JOB LIST PAGE */
+
+.jl-content {
+  margin-top: 38px;
+}
+.jl-search {
+  height: 73px;
+  margin-left: 15px;
+}
+
+.jl-search > .p-bold {
+  margin-right: 15px;
+}
+
+.jl-search-location-picker,
+.jl-search-job-type-picker,
+.jl-search-industry-picker {
+  background-color: #f6f6f6;
+  display: inline;
+  padding: 8px 9px;
+  border-radius: 3px;
+  margin: 0 13px;
+}
+
+.jl-icon {
+  color: #000;
+  font-size: 15px;
+  margin: 0 0 0 5px;
+  position: relative;
+  top: -3px;
+}
+
+.jl-job-posting {
+  height: 96px;
+  margin-left: 30px;
+}
+
+.jl-job-posting h3, p {
+  margin-bottom: 0;
+}
+
+.jl-job-posting .apply-now-button {
   float: right;
+  position: relative;
+  top: -12px;
+  margin-right: 3px;
 }
