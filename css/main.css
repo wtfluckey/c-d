@@ -294,6 +294,16 @@ hr {
   padding-right: 15px;
 }
 
+.grid-left240 {
+  width: 240px;
+  float: left;
+}
+
+.grid-middle450 {
+  width: 450px;
+  float: left;
+}
+
 
 /* DRIVER CENTER PAGE */
 
@@ -353,7 +363,7 @@ hr {
 }
 
 .jd-right-col hr {
-  margin: 11px 0;
+  margin: 9px 0;
 }
 
 .apply-now-button {
@@ -430,7 +440,11 @@ hr {
   margin-left: 30px;
 }
 
-.jl-job-posting h3, p {
+.jl-job-posting > h3 {
+  margin-bottom: 0;
+}
+
+.jl-job-posting > p {
   margin-bottom: 0;
 }
 
@@ -440,3 +454,38 @@ hr {
   top: -12px;
   margin-right: 3px;
 }
+
+.loc-content {
+  margin-top: 35px;
+}
+
+.loc-left-col {
+  padding-right: 30px;
+}
+
+.loc-left-col p {
+  margin-bottom: 0;
+}
+
+.loc-left-col img {
+  margin-bottom: 15px;
+}
+
+.loc-middle {
+  margin-top: 33px;
+}
+
+.loc-middle-content {
+  margin-top: 15px;
+}
+
+.loc-right-col {
+  margin-top: 32px;
+  padding-left: 30px;
+}
+
+.loc-right-col hr {
+  margin: 11px 0;
+}
+
+
