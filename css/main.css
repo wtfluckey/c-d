@@ -110,39 +110,86 @@ ul {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#820a1c', endColorstr='#820a1c',GradientType=1 ); /* IE6-9 */
 }
 
+/* COLORS */
+
+.button {
+  background-color: #428bca;
+  color: #fff;
+}
+
 /* SHARED */
 
 #header {
-  text-align: center;
-  background-color: #999;
-  width: 100%;
+  max-width: 100%;
+  margin: auto;
   position: relative;
   z-index: 9999;
 }
 
-.header-contact {
-  height: 25px;
+.header-contact-background {
+  width: 100%;
   background-color: #efefef;
 }
 
-.header-contact > .fa {
-  color: #000;
+.header-contact {
+  width: 930px;
+  margin: auto;
+  height: 25px;
+  text-align: right;
+  padding-top: 3px;
+  font-size: 12px;
+  color: #333;
+}
+
+#header-contact-icons {
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+#header-contact-icons a {
+ color: #333;
+ margin-right: 10px;
+}
+
+.header-contact-login {
+  width: 171px;
+  height: 18px;
+  float: right;
+  text-align: center;
+  border-radius: 3px;
+  margin-left: 50px;
 }
 
 #header-main {
+  width: 930px;
+  margin: auto;
   height: 85px;
   padding-top: 29px;
+  padding-right: 15px;
+  text-align: right;
+}
+
+.header-search-input {
+  width: 244px;
+  height: 33px;
+  border-radius: 4px;
+  margin-right: 13px;
+  border: none;
+  padding: 10px;
+}
+
+.header-search-submit {
+  width: 101px;
+  height: 32px;
+  float: right;
+  border-radius: 4px;
+  text-align: center;
+  padding: 7px;
 }
 
 #header-nav {
   background-color: #9c0c22;
   height: 35px;
-}
-
-#header > a {
-  color: white;
-  font-size: 20px;
-  margin-right: 20px;
 }
 
 #footer {
