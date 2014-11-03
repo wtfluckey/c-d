@@ -149,8 +149,12 @@ ul {
   height: 18px;
   float: right;
   text-align: center;
-  border-radius: 3px;
   margin-left: 50px;
+  position: relative;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  behavior: url('/pie/PIE.htc');
 }
 
 #header-main {
@@ -165,19 +169,27 @@ ul {
 .header-search-input {
   width: 244px;
   height: 33px;
-  border-radius: 4px;
   margin-right: 13px;
   border: none;
   padding: 10px;
+  position: relative;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  behavior: url('/pie/PIE.htc');
 }
 
 .header-search-submit {
   width: 101px;
   height: 32px;
   float: right;
-  border-radius: 4px;
   text-align: center;
   padding: 7px;
+  position: relative;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  behavior: url('/pie/PIE.htc');
 }
 
 #header-nav {
@@ -198,7 +210,10 @@ ul {
   float: right;
   padding: 1px;
   font-size: 12px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
   border-radius: 3px;
+  behavior: url('/pie/PIE.htc');
 }
 
 .header-nav-item {
@@ -253,6 +268,7 @@ hr {
 .button {
   background-color: #428bca;
   color: #fff;
+  position: relative;
 }
 
 /* HOME PAGE */
@@ -507,12 +523,15 @@ hr {
   height: 20px;
   color: white;
   text-align: center;
-  border-radius: 3px;
   padding: 3px;
   margin-top: 25px;
   margin-bottom: 15px;
   margin-right: 20px;
   display: inline-table;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  behavior: url('/pie/PIE.htc');
 }
 
 .apply-steps-box {
@@ -558,8 +577,11 @@ hr {
   background-color: #f6f6f6;
   display: inline;
   padding: 8px 9px;
-  border-radius: 3px;
   margin: 0 13px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  behavior: url('/pie/PIE.htc');
 }
 
 .jl-icon {
