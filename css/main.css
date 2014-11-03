@@ -264,9 +264,11 @@ hr {
   top: -9px;
   width: 610px;
   height: 655px;
-  border-bottom-right-radius: 50%;
-  border-top-right-radius: 50%;
   z-index: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  behavior: url('/pie/PIE.htc');
 }
 
 .home-header-content-copy {
