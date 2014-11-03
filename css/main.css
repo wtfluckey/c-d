@@ -276,12 +276,14 @@ hr {
   z-index: 999;
 }
 
-.browse-button {
-  width: 560px;
-  height: 116px;
-  background-color: #999;
+.browse-jobs-and-apply-button {
   position: absolute;
   top: 376px;
+}
+
+.apply-now-grey-button {
+  position: relative;
+  left: -4px;
 }
 
 .home-header-image {
