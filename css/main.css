@@ -298,6 +298,15 @@ hr {
   margin-bottom: 36px;
 }
 
+.home-promo-collapsable.collapsed {
+  display: none;
+}
+
+.home-promo-content.collapsed {
+  height: 0px;
+  padding: 0;
+}
+
 .apply-today {
   background-color: #666;
   width: 204px;
@@ -310,6 +319,10 @@ hr {
 
 .apply-today h3 {
   color: #fff;
+}
+
+.home-grid-content {
+  position: relative;
 }
 
 .vertical-divider {
