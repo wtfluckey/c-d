@@ -18,6 +18,36 @@
     margin-top: 30px;
   }
 
+  .temporary-drivers, .driver-management-service, .drive-video, .latest-news, .centerline-blog {
+    width: 90%;
+    min-height: 220px;
+    margin: auto;
+    float: none;
+    padding: 0;
+  }
+
+  .grid-image {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .hr-hide {
+    display: none;
+  }
+
+  .temporary-drivers .grid-copy {
+    width: 100%;
+    float: none;
+  }
+
+  .driver-management-service .grid-copy {
+    width: 100%;
+    float: none;
+  }
+  .home.vertical-divider {
+    display: none;
+  }
+
   /* REGULAR & DRIVER CENTER PAGE */
   .reg-header, .dc-header {
     margin-top: 30px;

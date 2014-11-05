@@ -391,6 +391,10 @@ hr {
   margin-right: 30px;
 }
 
+.grid-image {
+  float: right;
+}
+
 .drive-video {
   width: 290px;
   padding-left: 15px;
