@@ -58,6 +58,15 @@
     display: none;
   }
 
+  .jl-job-posting .apply-now {
+    float: none;
+    top: 0;
+  }
+
+  .jl-job-posting {
+    height: 150px;
+  }
+
 
 }
 
