@@ -18,12 +18,46 @@
     margin-top: 30px;
   }
 
-  /* REGULAR PAGE */
-  .reg-header {
+  /* REGULAR & DRIVER CENTER PAGE */
+  .reg-header, .dc-header {
     margin-top: 30px;
   }
 
-  .reg-content {
+  .reg-content, .dc-content {
     padding: 0;
   }
+
+  .dc-drive-video, .dc-grid-item3 {
+    padding: 0;
+    width: 44%;
+  }
+
+  .dc-grid-item2, .dc-grid-item4 {
+    width: 50%;
+  }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 699px) {
+  .dc-drive-video, .dc-grid-item3 {
+    width: 100%;
+    float: none;
+  }
+
+  .dc-grid-item2, .dc-grid-item4 {
+    width: 100%;
+    float: none;
+    padding-top: 20px;
+  }
+
+  .dc-grid-item3, .dc-grid-item4 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c4c4c4;
+  }
+
+  .vertical-divider {
+    display: none;
+  }
+
+
+}
+
