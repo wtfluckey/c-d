@@ -1,9 +1,9 @@
-@media only screen and (min-width: 930px) and (max-width: 4000px) {
-   
-	
-}
+/* @media screen and (min-width: 930px) and (max-width: 4000px) { */
+/*     */
+/* 	 */
+/* } */
 
-@media only screen and (min-width: 320px) and (max-width: 929px) {
+@media screen and (min-width: 320px) and (max-width: 929px) {
 
   /* GRIDS */
   .grid-left610, .grid-left240, .grid-middle450 {
@@ -76,7 +76,7 @@
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 699px) {
+@media screen and (min-width: 0px) and (max-width: 699px) {
   .dc-drive-video, .dc-grid-item3 {
     width: 100%;
     float: none;
