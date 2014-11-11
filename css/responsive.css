@@ -3,31 +3,26 @@
 /* 	 */
 /* } */
 
-@media screen and (min-width: 320px) and (max-width: 929px) {
+@media screen and (min-width: 0px) and (max-width: 929px) {
 
   .content {
     width: 90%;
   }
 
   .home-header-content {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    width: 50%;
+    display: none;
   }
 
   .home-header-content-copy {
     width: 50%;
-    padding-right: 30px;
+    padding-right: 20px;
+    margin-top: 30px;
+    position: static;
+    float: left;
   }
 
-  .home-header-content-copy h1 {
-    font-size: 34px;
-  }
-
-  .home-header-content-copy h5 {
-    font-size: 18px;
-    line-height: 21px;
+  .home-header-image {
+    width: 50%;
   }
 
   .apply-now-grey-button, .browse-button {
@@ -35,28 +30,25 @@
   }
 
   .responsive-links {
-    position: absolute;
-    top: 376px;
+    clear: both;
     display: block;
     max-width: 930px;
     width: 100%;
-    padding-right: 51%;
   }
 
   .responsive-browse, .responsive-apply {
     display: inline-block;
     width: 50%;
-    height: 115px;
+    height: 68px;
     float: left;
     color: #fff;
     text-align: center;
     font-size: 21px;
-    padding: 30px;
+    padding: 24px;
     line-height: 26px;
   }
 
   .responsive-apply {
-    padding-top: 43px;
     border-left: 1px solid #999;
   }
 
@@ -99,6 +91,7 @@
     width: 100%;
     float: none;
   }
+
   .home.vertical-divider {
     display: none;
   }
@@ -132,6 +125,16 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 699px) {
+
+  h2 {
+    font-size: 23px;
+  }
+
+  h5 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
   .dc-drive-video, .dc-grid-item3 {
     width: 100%;
     float: none;
@@ -165,43 +168,8 @@
     display: inline-block;
   }
 
-  .home-header-content {
-    display: none;
-  }
-
-  .home-header-content-copy {
-    width: 40%;
-  }
-
   .home-header-content-copy h1 {
-    font-size: 30px;
-    line-height: 32px;
-  }
-
-  .home-header-content-copy h5 {
-    font-size: 16px;
-  }
-
-  .home-header-image {
-    width: 50%;
-  }
-
-  .responsive-links {
-    position: static;
-    clear: both;
-    padding: 0;
-  }
-
-  .responsive-browse, .responsive-apply {
-    height: 85px;
-    padding: 30px;
-  }
-
-}
-
-@media screen and (min-width: 0px) and (max-width: 625px) {
-  .home-header-content-copy h1 {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 26px;
   }
   
@@ -214,39 +182,26 @@
     height: 65px;
     padding: 20px;
   }
-
-  h2 {
-    font-size: 23px;
-  }
-
-  h5 {
-    font-size: 14px;
-    line-height: 20px;
-  }
 }
 
-@media screen and (min-width: 0px) and (max-width: 575px) {
-  .home-header-content-copy {
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .home-header-content-copy, .home-header-image {
     width: 100%;
-    position: static;
-    margin-bottom: 15px;
-  }
-
-  .home-header-image {
-    width: 70%;
-  }
-
-  .responsive-links {
-    width: 27%;
-    position: absolute;
+    float: none;
   }
 
   .responsive-browse, .responsive-apply {
-    width: 100%;
+    padding: 10px;
   }
 
+  .temporary-drivers .grid-copy {
+    float: left;
+    margin-top: 10px;
+  }
+
+  .driver-management-service .grid-copy {
+    float: left;
+    margin-top: 10px;
+  }
+  
 }
-
-
-
-
