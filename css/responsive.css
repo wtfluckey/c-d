@@ -5,21 +5,76 @@
 
 @media screen and (min-width: 320px) and (max-width: 929px) {
 
+  .content {
+    width: 90%;
+  }
+
+  .home-header-content {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    width: 50%;
+  }
+
+  .home-header-content-copy {
+    width: 50%;
+    padding-right: 30px;
+  }
+
+  .home-header-content-copy h1 {
+    font-size: 34px;
+  }
+
+  .home-header-content-copy h5 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .apply-now-grey-button, .browse-button {
+    display: none;
+  }
+
+  .responsive-links {
+    position: absolute;
+    top: 376px;
+    display: block;
+    max-width: 930px;
+    width: 100%;
+    padding-right: 51%;
+  }
+
+  .responsive-browse, .responsive-apply {
+    display: inline-block;
+    width: 50%;
+    height: 115px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+    padding: 30px;
+    line-height: 26px;
+  }
+
+  .responsive-apply {
+    padding-top: 43px;
+    border-left: 1px solid #999;
+  }
+
   /* GRIDS */
   .grid-left610, .grid-left240, .grid-middle450 {
     float: none;
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
   .grid-right290, .grid-left640, .grid-right240 {
     float: none;
-    width: 90%;
+    width: 100%;
     margin: auto;
     margin-top: 30px;
   }
 
   .temporary-drivers, .driver-management-service, .drive-video, .latest-news, .centerline-blog {
-    width: 90%;
+    width: 100%;
     min-height: 220px;
     margin: auto;
     float: none;
@@ -108,6 +163,17 @@
 
   .loc-middle-content {
     display: inline-block;
+  }
+
+  .home-header-content {
+    height: 501px;
+  }
+
+  .responsive-links {
+    position: static;
+    clear: both;
+    height: 150px;
+    padding: 0;
   }
 
 }

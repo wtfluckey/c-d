@@ -75,6 +75,7 @@ body, p {
   line-height: 18px;
   letter-spacing: 0em;
   opacity: 1;
+  color: #4d4d4f;
 }
 
 a {
@@ -126,6 +127,28 @@ ul {
   background: -ms-linear-gradient(left,  #820a1c 0%,#cf112d 50%,#820a1c 100%); /* IE10+ */
   background: linear-gradient(to right,  #820a1c 0%,#cf112d 50%,#820a1c 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#820a1c', endColorstr='#820a1c',GradientType=1 ); /* IE6-9 */
+}
+
+.gray-gradient-left2right {
+  background: #5a5a5a; /* Old browsers */
+  background: -moz-linear-gradient(left,  #5a5a5a 0%, #808080 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#5a5a5a), color-stop(100%,#808080)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #5a5a5a 0%,#808080 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #5a5a5a 0%,#808080 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #5a5a5a 0%,#808080 100%); /* IE10+ */
+  background: linear-gradient(to right,  #5a5a5a 0%,#808080 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a5a5a', endColorstr='#808080',GradientType=1 ); /* IE6-9 */
+}
+
+.gray-gradient-right2left {
+  background: #808080; /* Old browsers */
+  background: -moz-linear-gradient(left,  #808080 0%, #5a5a5a 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#808080), color-stop(100%,#5a5a5a)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #808080 0%,#5a5a5a 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #808080 0%,#5a5a5a 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #808080 0%,#5a5a5a 100%); /* IE10+ */
+  background: linear-gradient(to right,  #808080 0%,#5a5a5a 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808080', endColorstr='#5a5a5a',GradientType=1 ); /* IE6-9 */
 }
 
 /* SHARED */
@@ -310,11 +333,17 @@ hr {
 .browse-jobs-and-apply-button {
   position: absolute;
   top: 376px;
+  max-width: 610px;
+  width: 100%;
 }
 
 .apply-now-grey-button {
   position: relative;
   left: -4px;
+}
+
+.responsive-links {
+  display: none;
 }
 
 .home-header-image {
@@ -354,6 +383,7 @@ hr {
 .apply-today h3 {
   color: #fff;
   font-size: 22px;
+  font-weight: normal;
 }
 
 .home-grid-content {
