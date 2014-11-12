@@ -16,7 +16,7 @@
   .home-header-content-copy {
     width: 50%;
     padding-right: 20px;
-    margin-top: 30px;
+    margin: 30px 0;
     position: static;
     float: left;
   }
@@ -190,8 +190,14 @@
     float: none;
   }
 
-  .responsive-browse, .responsive-apply {
-    padding: 10px;
+  .responsive-browse {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+
+  .responsive-apply {
+    padding: 17px;
+    font-size: 18px;
   }
 
   .temporary-drivers .grid-copy {
