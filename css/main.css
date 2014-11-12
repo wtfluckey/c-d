@@ -254,6 +254,7 @@ ul {
 #apply {
   float: right;
   margin-right: 15px;
+  padding-top: 8px;
 }
 
 #header-nav-items li {
@@ -261,7 +262,7 @@ ul {
   float: left;
 }
 
-#header-nav a {
+#header-nav li a {
   display: inline-block;
   width: 120px;
   height: 35px;
