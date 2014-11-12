@@ -9,6 +9,22 @@
     width: 90%;
   }
 
+  #header-nav-items {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    font-size: 24px;
+    padding-right: 15px;
+    padding-top: 5px;
+  }
+
+  .fa-bars {
+    color: white;
+    float: right;
+  }
+
   .home-header-content {
     display: none;
   }
