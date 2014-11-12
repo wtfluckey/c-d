@@ -241,6 +241,16 @@
     margin-bottom: 30px;
   }
 
+  .home-header-content-copy h1 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  .home-header-content-copy h5 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
   .responsive-browse {
     padding: 10px 20px;
     font-size: 18px;
