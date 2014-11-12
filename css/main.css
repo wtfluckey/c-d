@@ -166,7 +166,8 @@ ul {
 }
 
 .header-contact {
-  width: 930px;
+  max-width: 930px;
+  width: 100%;
   margin: auto;
   height: 25px;
   text-align: right;
@@ -198,7 +199,8 @@ ul {
 }
 
 #header-main {
-  width: 930px;
+  max-width: 930px;
+  width: 100%;
   margin: auto;
   height: 85px;
   padding-top: 29px;

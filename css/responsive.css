@@ -16,7 +16,7 @@
   .home-header-content-copy {
     width: 50%;
     padding-right: 20px;
-    margin: 30px 0;
+    margin-top: 30px;
     position: static;
     float: left;
   }
@@ -188,6 +188,10 @@
   .home-header-content-copy, .home-header-image {
     width: 100%;
     float: none;
+  }
+
+  .home-header-content-copy {
+    margin-bottom: 30px;
   }
 
   .responsive-browse {
