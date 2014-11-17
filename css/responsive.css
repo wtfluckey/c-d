@@ -157,6 +157,19 @@
   .loc-right-col {
     padding: 0;
   }
+
+  .tinynav {
+    display: block;
+    margin: auto;
+  }
+
+  #footer-links {
+    display: none;
+  }
+
+  .footer-gradient {
+    padding-top: 25px;
+  }
 }
 
 @media screen and (min-width: 0px) and (max-width: 699px) {

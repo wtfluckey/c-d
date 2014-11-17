@@ -322,7 +322,7 @@ ul {
   height: 85px;
 }
 
-.footer-links {
+#footer-links {
   width: 930px;
   margin: auto;
   padding-top: 30px;
@@ -331,8 +331,12 @@ ul {
 
 .footer-item {
   font-size: 13px;
-  color: #fff;
   margin-right: 67px;
+  display: inline;
+}
+
+.footer-item a {
+  color: #fff;
 }
 
 .content {
@@ -351,6 +355,10 @@ hr {
   background-color: #428bca;
   color: #fff;
   position: relative;
+}
+
+.tinynav {
+  display: none;
 }
 
 /* HOME PAGE */
