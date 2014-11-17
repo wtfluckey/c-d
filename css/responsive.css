@@ -31,7 +31,7 @@
 
   #header-nav a#pull {
     display: block;
-    width: 20%;
+    width: 22%;
     color: #fff;
     font-size: 18px;
     margin-left: 6%;
@@ -245,6 +245,27 @@
     border-bottom: 1px solid #820A1C;
   }
 
+  #header-contact-icons {
+    display: none;
+  }
+
+  .header-contact-login {
+    margin-left: 20px;
+  }
+
+  .header-search-input {
+    width: 210px;
+    height: 28px;
+    font-size: 13px;
+  }
+
+  .header-search-submit {
+    width: 70px;
+    height: 28px;
+    font-size: 12px;
+    padding: 5px;
+  }
+
   .home-header-content-copy, .home-header-image {
     width: 100%;
     float: none;
@@ -283,5 +304,4 @@
     float: left;
     margin-top: 10px;
   }
-  
 }
