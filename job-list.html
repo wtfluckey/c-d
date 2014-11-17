@@ -210,14 +210,14 @@
       <div class="footer-red-bar">
       </div>
       <div class="footer-gradient red-gradient">
-        <div class="footer-links">
-          <a href=""><span class="footer-item">© TrueBlue, Inc. 2014</span></a>
-          <a href=""><span class="footer-item">Home</span></a>
-          <a href=""><span class="footer-item">Careers</span></a>
-          <a href=""><span class="footer-item">Terms and Conditions</span></a>
-          <a href=""><span class="footer-item">Privacy Policy</span></a>
-          <a href=""><span class="footer-item">Contact Us</span></a>
-        </div>
+        <ul id="footer-links">
+          <li class="selected footer-item"><a href="/">© TrueBlue, Inc. 2014</a></li>
+          <li class="footer-item"><a href="">Home</a></li>
+          <li class="footer-item"><a href="">Careers</a></li>
+          <li class="footer-item"><a href="">Terms and Conditions</a></li>
+          <li class="footer-item"><a href="">Privacy Policy</a></li>
+          <li class="footer-item"><a href="">Contact Us</a></li>
+        </ul>
       </div>
     </div>
 
@@ -228,6 +228,12 @@
     <script type="text/javascript" src="js/html5shiv.js"></script> 
     <script type="text/javascript" src="js/respond.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/tinynav.min.js"></script>
+    <script>
+      $(function () {
+        $("#footer-links").tinyNav();
+      });
+    </script>
     <!--[if IE]>
     <script type="text/javascript" src="js/PIE.js"></script>
     <![endif]-->
