@@ -1,6 +1,4 @@
 $(function() {
-  console.log('i am here');
-
   var menu = $('#header-nav-items');
   var menuHeight = menu.height();
 
