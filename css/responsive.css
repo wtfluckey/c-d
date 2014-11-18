@@ -3,7 +3,7 @@
 /* 	 */
 /* } */
 
-@media screen and (min-width: 0px) and (max-width: 929px) {
+@media screen and (min-width: 0px) and (max-width: 959px) {
 
   #header-nav {
     min-height: 35px;
@@ -64,14 +64,14 @@
     display: none;
   }
 
-  .responsive-links {
+  .grey-links {
     clear: both;
     display: block;
     max-width: 930px;
     width: 100%;
   }
 
-  .responsive-browse, .responsive-apply {
+  .grey-browse, .grey-apply {
     display: inline-block;
     width: 50%;
     height: 68px;
@@ -83,17 +83,17 @@
     line-height: 26px;
   }
 
-  .responsive-apply {
+  .grey-apply {
     border-left: 1px solid #999;
   }
 
   /* GRIDS */
-  .grid-left610, .grid-left240, .grid-middle450 {
+  .grid-left630, .grid-left210, .grid-middle420 {
     float: none;
     width: 100%;
     margin: auto;
   }
-  .grid-right290, .grid-left640, .grid-right240 {
+  .grid-right300, .grid-left640, .grid-right240 {
     float: none;
     width: 100%;
     margin: auto;
