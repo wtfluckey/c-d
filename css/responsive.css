@@ -4,8 +4,17 @@
 /* } */
 
 @media screen and (min-width: 0px) and (max-width: 959px) {
+  h1 {
+    font-size: 37px;
+    line-height: 39px;
+  }
+
+  h5 {
+    font-size: 18px;
+    line-height: 22px;
+  }
   #header-logo {
-    margin-left: 50px;
+    margin-left: 10px;
   }
 
   #header-nav {
@@ -55,7 +64,6 @@
     width: 50%;
     padding-right: 20px;
     margin-top: 30px;
-    position: static;
     float: left;
   }
 
