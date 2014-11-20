@@ -180,6 +180,11 @@
 
 @media screen and (min-width: 0px) and (max-width: 699px) {
 
+  h1 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
   h2 {
     font-size: 23px;
   }
@@ -189,24 +194,42 @@
     line-height: 20px;
   }
 
-  .dc-drive-video, .dc-grid-item3 {
+  .dc-r-header.grid-left630 {
+    width: 40%;
+    float: left;
+  }
+
+  .dc-r-header-img.grid-right300 {
+    width: 300px;
+    float: right;
+    margin: 0;
+  }
+
+  .grid-left630 {
     width: 100%;
     float: none;
   }
 
-  .dc-grid-item2, .dc-grid-item4 {
+  .grid-right300 {
     width: 100%;
     float: none;
-    padding-top: 20px;
+    margin-top: 15px;
   }
 
-  .dc-grid-item3, .dc-grid-item4 {
-    padding-bottom: 10px;
-    border-bottom: 1px solid #c4c4c4;
-  }
-
-  .vertical-divider {
+  .grid-right300 hr {
     display: none;
+  }
+
+  .item-right {
+    margin-bottom: 15px;
+  }
+
+  .dc-drive-video,
+  .dc-grid-item2,
+  .dc-grid-item3,
+  .dc-grid-item4 {
+    width: 100%;
+    float: none;
   }
 
   .jl-job-posting .apply-now {
