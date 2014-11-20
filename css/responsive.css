@@ -100,15 +100,7 @@
 
   /* GRIDS */
   .grid-left630, .grid-left210, .grid-middle420 {
-    float: none;
-    width: 100%;
-    margin: auto;
-  }
-  .grid-right300, .grid-left640, .grid-right240 {
-    float: none;
-    width: 100%;
-    margin: auto;
-    margin-top: 30px;
+    width: 55%;
   }
 
   .temporary-drivers, .driver-management-service, .drive-video, .latest-news, .centerline-blog {
@@ -151,13 +143,14 @@
     padding: 0;
   }
 
-  .dc-drive-video, .dc-grid-item3 {
-    padding: 0;
-    width: 44%;
+  .vertical-divider {
+    display: none;
   }
 
-  .dc-grid-item2, .dc-grid-item4 {
-    width: 50%;
+  .dc-grid-item2, .dc-grid-item3, .dc-grid-item4, .dc-drive-video {
+    margin-top: 10px;
+    width: 100%;
+    float: left;
   }
 
   .loc-content img {
