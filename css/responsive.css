@@ -53,7 +53,7 @@
   }
 
   .content {
-    width: 90%;
+    width: 95%;
   }
 
   .home-header-content {
@@ -100,7 +100,7 @@
 
   /* GRIDS */
   .grid-left630, .grid-left210, .grid-middle420 {
-    width: 55%;
+    width: 60%;
   }
 
   .temporary-drivers, .driver-management-service, .drive-video, .latest-news, .centerline-blog {
@@ -130,25 +130,21 @@
     float: none;
   }
 
-  .home.vertical-divider {
+  .vertical-divider {
     display: none;
   }
 
   /* REGULAR & DRIVER CENTER PAGE */
-  .reg-header, .dc-header {
-    margin-top: 30px;
-  }
 
   .reg-content, .dc-content {
     padding: 0;
   }
 
-  .vertical-divider {
-    display: none;
-  }
-
-  .dc-grid-item2, .dc-grid-item3, .dc-grid-item4, .dc-drive-video {
-    margin-top: 10px;
+  .dc-grid-item2,
+  .dc-grid-item3,
+  .dc-grid-item4,
+  .dc-drive-video {
+    margin-top: 15px;
     width: 100%;
     float: left;
   }
@@ -173,6 +169,12 @@
 
   .footer-gradient {
     padding-top: 25px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 870px) {
+  .grid-left630 {
+    width: 50%;
   }
 }
 
