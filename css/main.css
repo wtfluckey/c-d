@@ -437,10 +437,6 @@ hr {
   font-weight: normal;
 }
 
-.home-grid-content {
-  position: relative;
-}
-
 .vertical-divider {
   width: 1px;
   height: 300px;
@@ -537,17 +533,6 @@ hr {
 
 .grid-right300 {
   width: 300px;
-  float: right;
-}
-
-.grid-left640 {
-  width: 640px;
-  float: left;
-  margin-right: 50px;
-}
-
-.grid-right240 {
-  width: 240px;
   float: right;
 }
 
