@@ -204,6 +204,19 @@
     line-height: 20px;
   }
 
+  .header-search-input {
+    width: 185px;
+    height: 28px;
+    font-size: 13px;
+  }
+
+  .header-search-submit {
+    width: 70px;
+    height: 28px;
+    font-size: 12px;
+    padding: 5px;
+  }
+
   .dc-r-header.grid-left630 {
     width: 40%;
     float: left;
@@ -290,19 +303,6 @@
 
   .header-contact-login {
     margin-left: 20px;
-  }
-
-  .header-search-input {
-    width: 210px;
-    height: 28px;
-    font-size: 13px;
-  }
-
-  .header-search-submit {
-    width: 70px;
-    height: 28px;
-    font-size: 12px;
-    padding: 5px;
   }
 
   .home-header-content-copy, .home-header-image {
