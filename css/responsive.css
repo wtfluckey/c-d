@@ -120,6 +120,10 @@
     display: none;
   }
 
+  .reg-list {
+    margin-top: 15px;
+  }
+
   .temporary-drivers .grid-copy {
     width: 100%;
     float: none;
