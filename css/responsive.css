@@ -99,11 +99,17 @@
   }
 
   /* GRIDS */
-  .grid-left630, .grid-left210, .grid-middle420 {
+  .grid-left630,
+  .grid-left210,
+  .grid-middle420 {
     width: 60%;
   }
 
-  .temporary-drivers, .driver-management-service, .drive-video, .latest-news, .centerline-blog {
+  .temporary-drivers,
+  .driver-management-service,
+  .drive-video,
+  .latest-news,
+  .centerline-blog {
     width: 100%;
     min-height: 220px;
     margin: auto;
@@ -265,7 +271,7 @@
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 525px) {
+@media screen and (min-width: 0px) and (max-width: 580px) {
 
   #header-nav li {
     display: block;
@@ -337,4 +343,16 @@
     float: left;
     margin-top: 10px;
   }
+
+  .dc-r-header.grid-left630 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .dc-r-header-img.grid-right300 {
+    width: 300px;
+    margin: auto;
+    float: none;
+  }
+  
 }
