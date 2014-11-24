@@ -231,6 +231,10 @@
     display: none;
   }
 
+  .jd-right-col hr {
+    display: block;
+  }
+
   .item-right {
     margin-bottom: 15px;
   }

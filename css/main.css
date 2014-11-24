@@ -608,6 +608,10 @@ hr {
   margin: 9px 0;
 }
 
+.jd-right-col img {
+  margin-bottom: 15px;
+}
+
 .jd-more-jobs {
   margin-top: 15px;
 }
@@ -626,6 +630,10 @@ hr {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+}
+
+.jd-right-col .apply-now {
+  margin-top: 0;
 }
 
 .apply-steps-box {
@@ -710,8 +718,11 @@ hr {
   margin-top: 35px;
 }
 
-.loc-info p {
+.loc-info {
   margin-top: 15px;
+}
+
+.loc-info p {
   margin-bottom: 0;
 }
 
