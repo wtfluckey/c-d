@@ -329,6 +329,33 @@
     color: #9c0c22;
   }
 
+  .grid-left210 {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+
+  .grid-middle420 {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+
+  .map img {
+    max-width: 420px;
+    width: 100%;
+    float: none;
+  }
+
+  .loc-right-col hr {
+    display: inherit;
+  }
+
+  .loc-middle-map,
+  .loc-middle-content {
+    margin-top: 25px;
+  }
+
 }
 
 @media screen and (min-width: 0px) and (max-width: 580px) {
@@ -401,5 +428,10 @@
     margin: auto;
     float: none;
   }
-  
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .loc-info {
+    clear: both;
+  }
 }
