@@ -724,20 +724,20 @@ hr {
   margin-top: 35px;
 }
 
-.loc-info {
-  margin-top: 15px;
+.loc-content img {
+  margin-bottom: 15px;
 }
 
 .loc-info p {
   margin-bottom: 0;
 }
 
-.loc-middle {
+.loc-middle-map {
   margin-top: 33px;
 }
 
 .loc-middle-content {
-  margin-top: 15px;
+  margin-left: 240px;
 }
 
 .loc-right-col {

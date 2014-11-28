@@ -82,10 +82,20 @@
   }
 
   /* GRIDS */
-  .grid-left630,
-  .grid-left210,
-  .grid-middle420 {
+  .grid-left630 {
     width: 60%;
+  }
+
+  .loc-right-col {
+    width: 200px;
+    clear: both;
+    float: left;
+    padding: 0;
+    margin: 0;
+  }
+
+  .loc-middle-content {
+    margin-left: 40px;
   }
 
   .temporary-drivers,
@@ -145,10 +155,6 @@
   .loc-content img {
     float: left;
     margin-right: 20px;
-  }
-
-  .loc-right-col {
-    padding: 0;
   }
 
   .jl-search {
@@ -227,7 +233,6 @@
   .apply-steps-box-info {
     display: block;
   }
-  
 
 }
 
