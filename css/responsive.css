@@ -248,15 +248,15 @@
   .loc-right-col {
     width: 200px;
   }
+
+  h1 {
+    font-size: 28px;
+    line-height: 30px;
+  }
 }
 
 
 @media screen and (min-width: 0px) and (max-width: 699px) {
-
-  h1 {
-    font-size: 32px;
-    line-height: 35px;
-  }
 
   h2 {
     font-size: 23px;
@@ -394,25 +394,6 @@
     margin-left: 20px;
   }
 
-  .home-header-content-copy, .home-header-image {
-    width: 100%;
-    float: none;
-  }
-
-  .home-header-content-copy {
-    margin-bottom: 30px;
-  }
-
-  .home-header-content-copy h1 {
-    font-size: 30px;
-    line-height: 32px;
-  }
-
-  .home-header-content-copy h5 {
-    font-size: 18px;
-    line-height: 20px;
-  }
-
   .header-search-input,
   .header-search-submit {
     display: none;
@@ -455,6 +436,29 @@
     float: none;
   }
 }
+@media screen and (min-width: 0px) and (max-width: 564px) {
+
+  .home-header-content-copy {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .home-header-image {
+    max-width: 300px;
+    width: 100%;
+    float: none;
+    display: block;
+    margin: auto;
+  }
+
+  .grey-browse,
+  .grey-apply {
+    height: 95px;
+  }
+
+  .grey-apply {
+    padding-top: 35px;
+  }
+}
 
 @media screen and (min-width: 0px) and (max-width: 480px) {
   .loc-info {
@@ -465,4 +469,20 @@
     max-width: 272px;
     width: 80%;
   }
+
+  .grey-browse,
+  .grey-apply {
+    font-size: 18px;
+  }
+
+  .home-promo-content {
+    padding-top: 15px;
+  }
 }
+
+@media screen and (min-width: 0px) and (max-width: 330px) {
+  .grey-apply {
+    padding-top: 24px;
+  }
+}
+
