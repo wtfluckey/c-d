@@ -232,6 +232,10 @@ ul {
   border-radius: 4px;
 }
 
+.fa-search {
+  display: none;
+}
+
 #header-nav-background {
   background-color: #9c0c22;
 }

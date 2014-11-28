@@ -413,6 +413,17 @@
     line-height: 20px;
   }
 
+  .header-search-input,
+  .header-search-submit {
+    display: none;
+  }
+
+  .fa-search {
+    display: inline;
+    color: #fff;
+    font-size: 24px;
+  }
+
   .responsive-browse {
     padding: 10px 20px;
     font-size: 18px;
@@ -448,5 +459,10 @@
 @media screen and (min-width: 0px) and (max-width: 480px) {
   .loc-info {
     clear: both;
+  }
+
+  #header-logo {
+    max-width: 272px;
+    width: 80%;
   }
 }
