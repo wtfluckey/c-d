@@ -15,7 +15,7 @@ h1 {
   color: #9c0c22;
   font-weight: bold;
   line-height: 44.74px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   opacity: 1;
   margin-top: 0;
   margin-bottom: 5px;
@@ -27,7 +27,7 @@ h2 {
   color: #9c0c22;
   font-weight: bold;
   line-height: 45px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   opacity: 1;
   margin-top: 0;
   margin-bottom: 0;
@@ -39,7 +39,7 @@ h3 {
   color: #9c0c22;
   font-weight: bold;
   line-height: 22px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   opacity: 1;
   margin-top: 0;
   margin-bottom: 15px;
@@ -51,7 +51,7 @@ h4 {
   color: #9c0c22;
   font-weight: bold;
   line-height: 35px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   opacity: 1;
   margin-top: 5px;
   margin-bottom: 0;
@@ -63,7 +63,7 @@ h5 {
   color: #000000;
   font-weight: normal;
   line-height: 25px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   opacity: 1;
   margin-top: 0;
   margin-bottom: 0;
@@ -73,7 +73,7 @@ body, p {
   font-family: Arial;
   font-size: 15px;
   line-height: 18px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   opacity: 1;
   color: #4d4d4f;
 }
@@ -609,7 +609,7 @@ hr {
 }
 
 .jd-right-col img {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .jd-more-jobs {
@@ -672,6 +672,7 @@ hr {
 
 .jl-search > .p-bold {
   margin-right: 15px;
+  float: left;
 }
 
 .jl-search-location-picker,

@@ -151,6 +151,23 @@
     padding: 0;
   }
 
+  .jl-search {
+    margin-left: 30px;
+    height: 100px;
+  }
+
+  .jl-search > .p-bold {
+    float: none;
+  }
+
+  .jl-search-items {
+    margin: 20px 0;
+  }
+
+  .jl-job-posting .apply-now {
+    top: -70px;
+  }
+
   .tinynav {
     display: block;
     margin: auto;
@@ -173,6 +190,40 @@
   .home-header-content-copy {
     width: 50%;
   }
+
+  .jl-search {
+    height: 225px;
+    display: inline-block;
+  }
+
+  .jl-search-items {
+    margin: 0;
+  }
+
+  .jl-search-location,
+  .jl-search-job-type,
+  .jl-search-industry {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .jl-search-location-picker,
+  .jl-search-job-type-picker,
+  .jl-search-industry-picker {
+    display: block;
+    padding: 8px 29px;
+  }
+
+  .jl-job-posting {
+    height: 125px;
+  }
+
+  .jl-job-posting .apply-now {
+    float: none;
+    position: static;
+    margin-top: 7px;
+  }
+
 }
 
 @media screen and (min-width: 0px) and (max-width: 699px) {
@@ -224,7 +275,7 @@
   .grid-right300 {
     width: 100%;
     float: none;
-    margin-top: 15px;
+    margin-top: 25px;
   }
 
   .grid-right300 hr {
@@ -245,15 +296,6 @@
   .dc-grid-item4 {
     width: 100%;
     float: none;
-  }
-
-  .jl-job-posting .apply-now {
-    float: none;
-    top: 0;
-  }
-
-  .jl-job-posting {
-    height: 150px;
   }
 
   .loc-middle-content {
