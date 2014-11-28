@@ -215,7 +215,7 @@
   }
 
   .jl-job-posting {
-    height: 125px;
+    height: 140px;
   }
 
   .jl-job-posting .apply-now {
@@ -307,6 +307,18 @@
     height: 65px;
     padding: 20px;
   }
+
+  .apply-steps-box-info {
+    display: none;
+  }
+
+  .apply-steps-box .icon-3steps {
+    display: block;
+    float: right;
+    margin-right: 15px;
+    color: #9c0c22;
+  }
+
 }
 
 @media screen and (min-width: 0px) and (max-width: 580px) {
