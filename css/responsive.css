@@ -86,8 +86,12 @@
     width: 60%;
   }
 
+  .grid-left210 {
+    width: 270px;
+  }
+
   .loc-right-col {
-    width: 200px;
+    width: 260px;
     clear: both;
     float: left;
     padding: 0;
@@ -235,6 +239,17 @@
   }
 
 }
+
+@media screen and (min-width: 0px) and (max-width: 759px) {
+  .grid-left210 {
+    width: 210px;
+  }
+
+  .loc-right-col {
+    width: 200px;
+  }
+}
+
 
 @media screen and (min-width: 0px) and (max-width: 699px) {
 
