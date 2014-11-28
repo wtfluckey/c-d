@@ -8,6 +8,7 @@ $(function() {
   });
 
   $(window).resize(function(){
+    $('.apply-steps-box-info').removeAttr('style');
       var w = $(window).width();
       if(w > 960 && menu.is(':hidden')) {
           menu.removeAttr('style');

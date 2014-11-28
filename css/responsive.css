@@ -224,6 +224,11 @@
     margin-top: 7px;
   }
 
+  .apply-steps-box-info {
+    display: block;
+  }
+  
+
 }
 
 @media screen and (min-width: 0px) and (max-width: 699px) {
