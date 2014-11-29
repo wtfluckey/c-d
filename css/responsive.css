@@ -100,6 +100,7 @@
   }
 
   .grid-image {
+    min-width: 175px;
     max-width: 210px;
     width: 45%;
     margin-left: 15px;
