@@ -441,6 +441,11 @@ hr {
   font-weight: normal;
 }
 
+.home.vertical-divider {
+  height: 240px;
+  display: inherit;
+}
+
 .vertical-divider {
   width: 1px;
   height: 300px;

@@ -81,6 +81,58 @@
     border-left: 1px solid #999;
   }
 
+  .temporary-drivers,
+  .driver-management-service {
+    width: 48%;
+    padding-left: 0;
+  }
+
+  .temporary-drivers .grid-copy {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+  }
+
+  .driver-management-service .grid-copy {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+  }
+
+  .grid-image {
+    max-width: 210px;
+    width: 45%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+
+  .drive-video {
+    padding-left: 0;
+  }
+
+  .home.vertical-divider {
+    margin: 0 14px;
+  }
+
+  .vertical-divider {
+    margin: 0;
+  }
+
+  .home-content2 {
+    margin-top: 25px;
+  }
+
+  .latest-news,
+  .centerline-blog {
+    width: 28%;
+    margin-left: 15px;
+    padding-right: 15px;
+  }
+
+  .centerline-blog {
+    float: left;
+  }
+
   /* GRIDS */
   .grid-left630 {
     width: 60%;
@@ -90,58 +142,15 @@
     width: 270px;
   }
 
-  .loc-right-col {
-    width: 260px;
-    clear: both;
-    float: left;
-    padding: 0;
-    margin: 0;
-  }
-
-  .loc-middle-content {
-    margin-left: 40px;
-  }
-
-  .temporary-drivers,
-  .driver-management-service,
-  .drive-video,
-  .latest-news,
-  .centerline-blog {
-    width: 100%;
-    min-height: 220px;
-    margin: auto;
-    float: none;
-    padding: 0;
-  }
-
-  .grid-image {
-    float: left;
-    margin-right: 20px;
-  }
-
   .hr-hide {
     display: none;
   }
 
+  /* REGULAR & DRIVER CENTER PAGE */
+
   .reg-list {
     margin-top: 15px;
   }
-
-  .temporary-drivers .grid-copy {
-    width: 100%;
-    float: none;
-  }
-
-  .driver-management-service .grid-copy {
-    width: 100%;
-    float: none;
-  }
-
-  .vertical-divider {
-    display: none;
-  }
-
-  /* REGULAR & DRIVER CENTER PAGE */
 
   .reg-content, .dc-content {
     padding: 0;
@@ -161,6 +170,8 @@
     margin-right: 20px;
   }
 
+  /* JOB LIST PAGE */
+
   .jl-search {
     margin-left: 30px;
     height: 100px;
@@ -177,6 +188,22 @@
   .jl-job-posting .apply-now {
     top: -70px;
   }
+
+  /* LOCATION PAGE */
+
+  .loc-right-col {
+    width: 260px;
+    clear: both;
+    float: left;
+    padding: 0;
+    margin: 0;
+  }
+
+  .loc-middle-content {
+    margin-left: 40px;
+  }
+
+  /* FOOTER */
 
   .tinynav {
     display: block;
@@ -199,6 +226,22 @@
 
   .home-header-content-copy {
     width: 50%;
+  }
+
+  .vertical-divider {
+    display: none;
+  }
+
+  .latest-news,
+  .centerline-blog {
+    width: 55%;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  .centerline-blog {
+    margin-top: 20px;
   }
 
   .jl-search {
@@ -240,13 +283,42 @@
 
 }
 
-@media screen and (min-width: 0px) and (max-width: 759px) {
+@media screen and (min-width: 0px) and (max-width: 765px) {
   .grid-left210 {
     width: 210px;
   }
 
   .loc-right-col {
     width: 200px;
+  }
+
+  .home.vertical-divider {
+    display: none;
+  }
+
+  .temporary-drivers .grid-image {
+    float: left;
+    margin: 0 15px 25px 0;
+  }
+
+  .temporary-drivers,
+  .driver-management-service,
+  .drive-video,
+  .latest-news,
+  .centerline-blog {
+    width: 100%;
+  }
+
+  .temporary-drivers .grid-copy {
+    padding-top: 30px;
+  }
+
+  .driver-management-service .grid-copy {
+    padding-top: 40px;
+  }
+
+  .drive-video {
+    margin-bottom: 25px;
   }
 
   h1 {
@@ -278,6 +350,12 @@
     height: 28px;
     font-size: 12px;
     padding: 5px;
+  }
+
+  .latest-news,
+  .centerline-blog {
+    width: 100%;
+    float: none;
   }
 
   .dc-r-header.grid-left630,
@@ -415,16 +493,6 @@
     font-size: 18px;
   }
 
-  .temporary-drivers .grid-copy {
-    float: left;
-    margin-top: 10px;
-  }
-
-  .driver-management-service .grid-copy {
-    float: left;
-    margin-top: 10px;
-  }
-
   .dc-r-header.grid-left630 {
     width: 100%;
     margin-bottom: 15px;
@@ -478,6 +546,38 @@
   .home-promo-content {
     padding-top: 15px;
   }
+
+  .temporary-drivers {
+    margin-bottom: 20px;
+  }
+
+  .temporary-drivers .grid-image {
+    width: 100%;
+    display: block;
+    float: none;
+    margin-bottom: 15px;
+  }
+
+  .grid-image {
+    width: 100%;
+    display: block;
+    float: none;
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+
+  .temporary-drivers .grid-copy {
+    width: 100%;
+    float: none;
+    padding-top: 0;
+  }
+
+  .driver-management-service .grid-copy {
+    width: 100%;
+    float: none;
+    padding-top: 0;
+  }
+
 }
 
 @media screen and (min-width: 0px) and (max-width: 330px) {
