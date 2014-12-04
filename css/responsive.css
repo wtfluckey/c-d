@@ -593,6 +593,14 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 360px) {
+
+  .job-location,
+  .recruiting-office,
+  .work-hours,
+  .pay-rate {
+    width: 89px;
+    margin-top: 15px;
+  }
   .phone {
     display: block;
     margin-bottom: 10px;
