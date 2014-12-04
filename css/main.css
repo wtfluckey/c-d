@@ -42,7 +42,7 @@ h3 {
   letter-spacing: 0;
   opacity: 1;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 7px;
 }
 
 h4 {
@@ -374,10 +374,15 @@ hr {
 
 /* HOME PAGE */
 
-.home-header-content-copy {
-  width: 640px;
-  margin-top: 38px;
+.home-header-content {
+  width: 660px;
+  margin-top: 25px;
   float: left;
+}
+
+.home-header-content-copy {
+  padding-right: 20px;
+  height: 215px;
 }
 
 .home-header-image {
@@ -393,12 +398,12 @@ hr {
 .grey-browse, .grey-apply {
   display: inline-block;
   width: 50%;
-  height: 68px;
+  height: 60px;
   float: left;
   color: #fff;
   text-align: center;
   font-size: 21px;
-  padding: 24px;
+  padding: 17px;
   line-height: 26px;
 }
 
