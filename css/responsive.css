@@ -592,7 +592,12 @@
 
 }
 
-@media screen and (min-width: 0px) and (max-width: 330px) {
+@media screen and (min-width: 0px) and (max-width: 360px) {
+  .phone {
+    display: block;
+    margin-bottom: 10px;
+  }
+
   .grey-apply {
     padding-top: 24px;
   }
