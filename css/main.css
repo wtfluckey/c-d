@@ -374,15 +374,19 @@ hr {
 
 /* HOME PAGE */
 
+.home-header {
+  width: 100%;
+}
+
 .home-header-content {
   width: 660px;
-  margin-top: 25px;
   float: left;
 }
 
 .home-header-content-copy {
-  padding-right: 20px;
   height: 215px;
+  margin-top: 25px;
+  padding-right: 25px;
 }
 
 .home-header-image {
@@ -393,6 +397,10 @@ hr {
   clear: both;
   display: block;
   width: 100%;
+}
+
+.grey-links-mobile {
+  display: none;
 }
 
 .grey-browse, .grey-apply {

@@ -51,34 +51,8 @@
     width: 95%;
   }
 
-  .home-header-content-copy {
-    width: 60%;
-    padding-right: 20px;
-    margin-top: 30px;
-    float: left;
-  }
-
-  .grey-links {
-    clear: both;
-    display: block;
-    max-width: 930px;
-    width: 100%;
-  }
-
-  .grey-browse, .grey-apply {
-    display: inline-block;
-    width: 50%;
-    height: 68px;
-    float: left;
-    color: #fff;
-    text-align: center;
-    font-size: 21px;
-    padding: 24px;
-    line-height: 26px;
-  }
-
-  .grey-apply {
-    border-left: 1px solid #999;
+  .home-header-content {
+    width: calc(100% - 300px);
   }
 
   .temporary-drivers,
@@ -229,13 +203,21 @@
     width: 50%;
   }
 
-  .home-header-content-copy {
-    width: 50%;
-  }
-
   .vertical-divider {
     display: none;
   }
+
+  .home-header-content-copy {
+    height: 190px;
+  }
+
+  .grey-browse, .grey-apply {
+    height: 85px;
+  }
+
+  .grey-apply {
+    word-spacing: 1000px;
+ }
 
   .latest-news,
   .centerline-blog {
@@ -289,6 +271,12 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 765px) {
+
+  h1 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
   .grid-left210 {
     width: 210px;
   }
@@ -325,11 +313,6 @@
   .drive-video {
     margin-bottom: 25px;
   }
-
-  h1 {
-    font-size: 28px;
-    line-height: 30px;
-  }
 }
 
 
@@ -357,14 +340,24 @@
     padding: 5px;
   }
 
+  .home-header-content-copy {
+    height: 200px;
+    padding-right: 10px;
+  }
+
+  .grey-apply, .grey-browse {
+    height: 75px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
   .latest-news,
   .centerline-blog {
     width: 100%;
     float: none;
   }
 
-  .dc-r-header.grid-left630,
-  .home-header-content-copy {
+  .dc-r-header.grid-left630 {
     width: 40%;
     float: left;
   }
@@ -488,14 +481,40 @@
     font-size: 24px;
   }
 
-  .responsive-browse {
-    padding: 10px 20px;
-    font-size: 18px;
+  .home-header-content,
+  .home-header-content-copy  {
+    width: 100%;
   }
 
-  .responsive-apply {
-    padding: 17px;
-    font-size: 18px;
+  .home-header-content-copy {
+    height: 135px;
+  }
+
+  .grey-links {
+    display: none;
+  }
+
+  .grey-links-mobile {
+    display: block;
+  }
+
+  .grey-browse, .grey-apply {
+    height: 65px;
+    font-size: 19px;
+    padding-top: 22px;
+  }
+
+  .grey-apply {
+    word-spacing: 0;
+  }
+
+  .home-header-image {
+    max-width: 300px;
+    width: 100%;
+    float: none;
+    display: block;
+    margin: 20px auto 0;
+    clear: both;
   }
 
   .dc-r-header.grid-left630 {
@@ -507,30 +526,6 @@
     width: 300px;
     margin: auto;
     float: none;
-  }
-}
-@media screen and (min-width: 0px) and (max-width: 564px) {
-
-  .home-header-content-copy {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-  .home-header-image {
-    max-width: 300px;
-    width: 100%;
-    float: none;
-    display: block;
-    margin: auto;
-    clear: both;
-  }
-
-  .grey-browse,
-  .grey-apply {
-    height: 95px;
-  }
-
-  .grey-apply {
-    padding-top: 35px;
   }
 }
 
@@ -549,12 +544,21 @@
     max-width: 272px;
     width: 80%;
   }
+  
+  .home-header-content-copy {
+    height: 160px;
+  }
 
   .grey-browse,
   .grey-apply {
     font-size: 18px;
+    padding: 15px 30px;
   }
 
+  .grey-apply {
+    word-spacing: 100px;
+  }
+  
   .home-promo-content {
     padding-top: 15px;
   }
@@ -593,6 +597,10 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 360px) {
+  
+  .grey-browse, .grey-apply {
+    padding: 15px 10px;
+  }
 
   .job-location,
   .recruiting-office,
@@ -604,10 +612,6 @@
   .phone {
     display: block;
     margin-bottom: 10px;
-  }
-
-  .grey-apply {
-    padding-top: 24px;
   }
 }
 
