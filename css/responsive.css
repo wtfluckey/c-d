@@ -52,6 +52,7 @@
   }
 
   .home-header-content {
+    width: 63%;
     width: calc(100% - 300px);
   }
 
@@ -199,6 +200,12 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 870px) {
+  /* IE FALLBACK */
+  .home-header-content {
+    width: 55%;
+    width: calc(100% - 300px);
+  }
+
   .grid-left630 {
     width: 50%;
   }
@@ -272,6 +279,12 @@
 
 @media screen and (min-width: 0px) and (max-width: 765px) {
 
+  /* IE FALLBACK */
+  .home-header-content {
+    width: 49%;
+    width: calc(100% - 300px);
+  }
+
   h1 {
     font-size: 28px;
     line-height: 30px;
@@ -317,6 +330,12 @@
 
 
 @media screen and (min-width: 0px) and (max-width: 699px) {
+
+  /* IE FALLBACK */
+  .home-header-content {
+    width: 45%;
+    width: calc(100% - 300px);
+  }
 
   h2 {
     font-size: 23px;
@@ -401,12 +420,6 @@
 
   .loc-middle-content {
     display: inline-block;
-  }
-
-  .responsive-browse, .responsive-apply {
-    font-size: 16px;
-    height: 65px;
-    padding: 20px;
   }
 
   .apply-steps-box-info {
@@ -544,9 +557,13 @@
     max-width: 272px;
     width: 80%;
   }
-  
+
   .home-header-content-copy {
     height: 160px;
+  }
+
+  .hello {
+    width: 100px;
   }
 
   .grey-browse,
@@ -558,7 +575,7 @@
   .grey-apply {
     word-spacing: 100px;
   }
-  
+
   .home-promo-content {
     padding-top: 15px;
   }
