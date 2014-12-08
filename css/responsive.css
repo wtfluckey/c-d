@@ -47,6 +47,10 @@
     position: relative;
   }
 
+  #apply {
+    padding-top: 0;
+  }
+
   .content {
     width: 95%;
   }
