@@ -406,6 +406,15 @@
     display: none;
   }
 
+  .jd-call-to-actions {
+    display: none;
+  }
+
+  .jd-mobile-call-to-actions {
+    display: block;
+    margin-bottom: 15px;
+  }
+
   .jd-right-col hr {
     display: block;
   }
@@ -558,15 +567,6 @@
     margin-right: 10px;
     display: block;
     text-align: right;
-  }
-
-  .jd-call-to-actions {
-    display: none;
-  }
-
-  .jd-mobile-call-to-actions {
-    display: block;
-    margin-bottom: 15px;
   }
 
   .loc-info {
