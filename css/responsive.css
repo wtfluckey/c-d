@@ -560,6 +560,15 @@
     text-align: right;
   }
 
+  .jd-call-to-actions {
+    display: none;
+  }
+
+  .jd-mobile-call-to-actions {
+    display: block;
+    margin-bottom: 15px;
+  }
+
   .loc-info {
     clear: both;
   }
