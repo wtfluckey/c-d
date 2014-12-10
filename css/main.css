@@ -356,6 +356,10 @@ ul {
   clear: both;
 }
 
+.sfPageEditor .content{
+padding-top: 50px;
+}
+
 hr {
   margin: 15px 0;
   border-top: 1px solid #c4c4c4;
@@ -790,4 +794,18 @@ hr {
 
 .loc-right-col hr {
   margin: 11px 0;
+}
+
+/* MATT'S ADDITIONS */
+
+.sfPageEditor .content{
+    padding-top: 50px;
+}
+
+.full-column{margin-top: 33px;}
+
+.light-grey-background {
+background-color: #e6e6e6;
+padding: 20px 10px;
+color: #636363;
 }
