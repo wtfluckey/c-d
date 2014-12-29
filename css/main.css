@@ -329,7 +329,7 @@ ul {
 }
 
 .footer-gradient {
-  height: 85px;
+  height: 105px;
 }
 
 #footer-links {
@@ -342,10 +342,21 @@ ul {
 .footer-item {
   font-size: 13px;
   margin-right: 67px;
-  display: inline;
+  display: inline-flex;
+}
+
+.footer-item:last-child {
+  margin-right: 0;
 }
 
 .footer-item a {
+  color: #fff;
+}
+
+.formerly {
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
   color: #fff;
 }
 
